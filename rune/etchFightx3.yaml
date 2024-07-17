@@ -1,0 +1,21 @@
+# FIGHT•FIGHT•FIGHT rune etching YAML
+
+# ord wallet batch --batch etchFightx3.yaml --fee-rate 1 --dry-run
+
+mode: satpoints
+
+etching:
+  rune: FIGHT•FIGHT•FIGHT
+  divisibility: 0
+  symbol: 🗽
+  premine: 0
+  supply: 300000000
+  turbo: true
+  terms:
+    amount: 10000
+    cap: 30000
+
+# batch inscriptions to inscribe
+inscriptions:
+- file: fight3.jpg ## use full path
+  satpoint: 261c700f55fcc1568b845e73675d1d150779381ccc9750d2a905c8d9af209cfe:1:0
